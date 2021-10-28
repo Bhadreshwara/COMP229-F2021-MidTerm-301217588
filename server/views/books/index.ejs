@@ -36,13 +36,13 @@
                     <!-- ADD the EDIT BUTTON HERE -->
                     <!-- ------------------------ -->
 
-                    <a href="/books/<%= books[count]._id %>/edit" class="btn btn-warning"><i class="fa fa-pencil"></i> Edit</a>
+                    <a href="/books/<%= books[count]._id %>" class="btn btn-warning"><i class="fa fa-pencil"></i> Edit</a>
                   </td>
                   <td class="text-center">
                     <!-- ------------------------ -->
                     <!-- ADD the DELETE BUTTON HERE -->
                     <!-- ------------------------ -->
-                    <a href="/books/<%= books[count]._id %>/delete" class="btn btn-danger"><i class="fa fa-trash"></i> Delete</a>   
+                    <a href="books/delete<%= books[count]._id %>" class="btn btn-danger"><i class="fa fa-trash"></i> Delete</a>   
                   </td>
                 </tr>
                 <% } %>
